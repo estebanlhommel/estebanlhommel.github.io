@@ -1,0 +1,102 @@
+# baseURL       = "http://example.org/"
+languageCode  = "fr-FR"
+title         = "Roxo | NWS portfolio starter theme"
+theme         = "roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Accueil"
+    url     = ""
+    weight  = 2
+  [[menu.nav]]
+    name    = "Mes Projets"
+    url     = "portfolio"
+    weight  = 4
+  [[menu.nav]]
+    name    = "A propos"
+    url     = "about"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "ESTEBAN L'HOMMEL"
+    tagline               = "Etudiant en Design, Marketing et Dévelloppement"
+    primary_button        = "Mes projets"
+    primary_button_url    = "portfolio"
+    secondary_button      = "Me contacter"
+    secondary_button_url  = "contact"
+
+  [params.portfolio]
+    enable    = true
+    title     = "Mes projets"
+    subtitle  = "Un futur chef d'oeuvre ? Qui sait ?"
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "Travaillons ensemble !"
+    primary_button      = "Intéressé"
+    primary_button_url  = "contact"
+    secondary_button    = "Non Merci"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "Me contacter"
+      address = "21 rue de la Hêtraie, Saint Pierre de Varengeville"
+      phone   = "06 34 11 24 49"
+      email   = "elhommel@normandiewebschool.fr"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Infos"
+        [[params.footer.sitemap.link]]
+          name = "A propos"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Mes projets"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Me contacter"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Résaux sociaux"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://www.instagram.com/esteban_76480/"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://www.facebook.com/esteban.lhommel/"
+        [[params.footer.social.link]]
+          name = "Linkedin"
+          url  = "https://www.linkedin.com/in/esteban-l-hommel-3b00741bb/"
+        
+      # Footer Service
+      [params.footer.service]
+        title       = "Apport aux marques"
+        description = "Travaux en design et en dévelloppement<br>Pour tous types d'entreprises<br>Et de bonne qualité !"
